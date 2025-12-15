@@ -1,4 +1,4 @@
-#Jarek Mandre, 09.12.25
+#Jarek Mandre, 09.12
 #1.
 '''
 tunnid = 2
@@ -28,6 +28,17 @@ soidu_kaugus = 200
 kiirus = 90
 soiduaeg = round(soidu_kaugus / kiirus)
 print(soiduaeg)
+'''
+
+#9.
+'''
+voimsus = 400
+elektri_hind = 9.69
+
+voolutarb = voimsus / 1000
+tookulu = voolutarb * elektri_hind 
+print(f"Voolutarbimine = {voolutarb}")
+print(f"Töökulu = {tookulu}")
 '''
 
 #11.
