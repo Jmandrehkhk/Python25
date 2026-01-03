@@ -24,7 +24,7 @@ t.rt(90)
 t.circle(60)
 t.end_fill()
 
-##emakas
+#emakas
 t.penup()
 t.goto(0,50)
 t.pendown()
