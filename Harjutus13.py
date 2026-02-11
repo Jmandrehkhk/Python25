@@ -1,3 +1,5 @@
+#Jarek Mandre
+#11.02
 import turtle
 
 t = turtle
