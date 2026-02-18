@@ -1,10 +1,10 @@
 #Jarek Mandre
 #11.02
 
-
-
 import turtle
 import random
+
+skoor = 0
 
 aken = turtle.Screen()
 aken.bgcolor("lightblue")
@@ -43,6 +43,7 @@ def liigu_paremale():
 
 # ringi funktsioonid
 def peegelda_porkumisel():
+    global skoor
     nurk = ring.heading()
     if ring.xcor() >= 300 or ring.xcor() <= -300:
         uus_nurk = 180 - nurk
@@ -52,12 +53,30 @@ def peegelda_porkumisel():
     if ring.ycor() >= 300 or ring.ycor() <= -300:
         uus_nurk = 360 - nurk
         ring.setheading(uus_nurk)
+    if ring.ycor() <= -300:
+        print("Game over!")
+        #turtle.bye()
+    x = ristkylik.xcor()
+    y = ristkylik.ycor()
+    if (ring.ycor() <= y and ring.ycor()+5 >= y) and (ring.xcor() <= x and ring.xcor()+100 >= x):
+        skoor+=1
+        turtle.hideturtle()
+        turtle.clear()
+        turtle.penup()
+        turtle.goto(-250, 200)
+        turtle.pendown()
+        turtle.write(skoor, font=("Arial", 30, "normal"))
+        print("Skoor:", skoor)
+        uus_nurk = 360 - nurk
+        ring.setheading(uus_nurk)
 
 def ring_liigu():
     ring.forward(kiirus)
     peegelda_porkumisel()
     aken.update()
     aken.ontimer(ring_liigu, 20)
+
+
 
 # klaviatuurile reageerimine
 aken.listen()
