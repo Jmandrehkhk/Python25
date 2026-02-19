@@ -1,5 +1,5 @@
 #Jarek Mandre
-#05.02.26
+#05.02
 import math
 
 #4.1
