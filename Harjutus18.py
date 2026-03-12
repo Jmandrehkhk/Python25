@@ -7,8 +7,6 @@ faili_nimi = 'EstonianBasketballGames.csv'
 
 meeskonnad = {}
 
-
-
 with open(faili_nimi, mode='r', encoding='utf-8') as fail:
     csv_lugeja = csv.reader(fail)
 
