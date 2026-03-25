@@ -1,0 +1,49 @@
+https://dummyjson.com/ (keri alla)
+
+1. Products
+ • Kuva toodete nimed ja hinnad (title, price) 
+ • Leia kõige kallim toode 
+ • Filtreeri tooted, mille laoseis on  < 20 
+ • Arvuta keskmine hind 
+
+2. Carts
+ • Kuva ühe ostukorvi toodete nimed ja kogused (products) 
+ • Arvuta ostukorvide keskmine summa
+ • Leia ostukorvide kogusumma (total) 
+ • Leia ostukorv, kus on kõige rohkem tooteid (totalProducts) 
+
+3. Users
+ • Kuva kasutajate nimed ja emailid (firstName, email) 
+ • Filtreeri kasutajad, kelle age > 30 
+ • Leia kasutaja, kellel on kõige pikem nimi 
+ • Leia, kui palju adminne
+
+4. Posts
+ • Kuva postituste pealkirjad (title) 
+ • Leia postitus, millel on kõige rohkem reaktsioone (reactions) 
+ • Leia kõikide postituste vaatamiste kogusuma
+ • Arvuta keskmine reaktsioonide arv 
+
+5. Comments
+ • Kuva kommentaaride tekstid (body) 
+ • Loenda kokku kommentaaride koguaev 
+ • Leia kõige rohkem like saanud postitused
+ • Filtreeri kommentaarid kasutaja järgi 
+
+6. Quotes
+ • Kuva tsitaadid ja autorid (quote, author) 
+ • Leia kõige pikem tsitaat 
+ • Loenda tsitaatide koguarv 
+ • Kuva juhuslik tsitaat 
+
+7. Todos
+ • Kuva ülesanded ja staatus (todo, completed) 
+ • Loenda tehtud ülesanded 
+ • Leia todo’de koguaev
+ • Arvuta tehtud ülesannete protsent 
+
+8. Recipes
+ • Kuva retsepti nimi ja küpsetusaeg (name, cookTimeMinutes) 
+ • Filtreeri retseptid alla 30 minuti 
+ • Leia retsept, millel on kõige rohkem koostisosi (ingredients) 
+ • Arvuta keskmine valmistamisaeg 
